@@ -2461,6 +2461,7 @@ div[class^=notice] button:hover {
   font-weight: bold;
 }
 [class*=wordmark]::after {
+  display: none;
   content: "v5.7.0";
   margin-left: 8px;
   color: rgba(255, 255, 255, 0.3);
